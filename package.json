@@ -1,0 +1,30 @@
+{
+  "name": "standard-summary",
+  "version": "1.0.0",
+  "description": "Display output from `standard` as a list of errors, ordered by count",
+  "bin": "index.js",
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "cat test/fixture.txt | node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/standard-summary.git"
+  },
+  "keywords": [
+    "standard",
+    "javascript",
+    "style",
+    "eslint"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/standard-summary/issues"
+  },
+  "homepage": "https://github.com/zeke/standard-summary#readme",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "pad": "^1.0.0"
+  }
+}
